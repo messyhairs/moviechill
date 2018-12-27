@@ -1,0 +1,28 @@
+.card
+{
+	
+	background: transparent;
+	border:none;
+	border-size:none;
+
+
+}
+.card-title,.card-text
+{
+	color: white;
+}
+
+
+.container-fluid
+{
+	width: 100%;
+	background: black;
+}
+hr
+{
+	background: white;
+}
+img
+{
+	max-width: 300px;
+}

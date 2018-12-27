@@ -1,0 +1,47 @@
+.card
+{
+	
+	background: transparent;
+	border:none;
+	border-size:none;
+
+
+}
+.card:hover
+{
+	background: black;
+	border:none;
+	color: white;
+	cursor: pointer;
+	transition: 3s;
+}
+p.card-text:nth-child(3)
+{
+	color: white;
+}
+
+img
+{
+  
+  box-shadow: 5px 10px 2px black;
+  max-width: 300px;
+}
+.modal,.fade
+{
+	background: black;
+
+}
+button
+{
+	max-width: 200px;
+}
+.modal-body
+{
+	background: black;
+	border:none;
+	color: white;
+}
+.modal-dialog
+{
+	border-color: none;
+}

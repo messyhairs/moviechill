@@ -1,0 +1,13 @@
+	<div class="row mt-5">
+	<div class="card col-md-9 mt-5 px-2 mx-auto" *ngFor="let movie of theater" style="width: 18rem;">
+     <img *ngIf="movie.poster_path" class="card-img-top mx-auto d-block mt-2" src="http://image.tmdb.org/t/p/w500/{{movie.poster_path}}">
+  <div class="card-body text-center">
+    <h5 class="card-title">{{movie.title}}</h5>
+    <p class="card-text">On Theater &nbsp;{{movie.release_date}}</p>
+    <p class="card-text">Sneak peak:&nbsp;{{movie.overview}}</p>
+  </div>
+  <hr>
+</div>
+</div>
+
+
